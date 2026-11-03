@@ -26,21 +26,6 @@
 ## 🚀 Quick Start (快速开始)
 
 克隆并安装：
-  git clone [https://github.com/songjiabao1386/flash-attention-cuda.git](https://github.com/songjiabao1386/flash-attention-cuda.git)
+  git clone https://github.com/songjiabao1386/flash-attention-cuda.git
   cd flash-attention-cuda
   pip install -e .
-
----
-
-## 📂 Project Structure (目录结构)
-flash-attention-cuda/
-├── include/
-│   └── attention_kernels.h
-├── src/
-│   ├── attention_naive.cu
-│   └── attention_flash.cu
-├── tests/
-│   ├── test_attention.py
-│   └── benchmark.py
-├── setup.py
-└── README.md
